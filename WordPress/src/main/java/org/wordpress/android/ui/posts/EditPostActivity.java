@@ -403,6 +403,7 @@ public class EditPostActivity extends LocaleAwareActivity implements
     @Inject StoriesPrefs mStoriesPrefs;
     @Inject StoriesEventListener mStoriesEventListener;
     @Inject ContactInfoBlockFeatureConfig mContactInfoBlockFeatureConfig;
+    @Inject LayoutGridBlockFeatureConfig mLayoutGridBlockFeatureConfig;
 
     private StorePostViewModel mViewModel;
 
